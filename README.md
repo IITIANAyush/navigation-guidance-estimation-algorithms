@@ -42,7 +42,7 @@ Run `Q2_Guidance.m` to analyze missile interception dynamics.
 
 | Scenario | Parameters | Stability | Observations |
 | :--- | :--- | :--- | :--- |
-| **2, 3, 4** | $|\nu \sin \delta| < 1$ | **Stable** | Smooth interception; bounded lateral acceleration. |
+| **2, 3, 4** | \nu \sin \delta as in problem_statement | **Stable** | Smooth interception; bounded lateral acceleration. |
 | **1, 5** | Boundary/Violated | **Unstable** | Terminal acceleration $a_M$ diverges near intercept. |
 
 > **Conclusion:** Deviated pursuit improves interception geometry over pure pursuit, provided the speed ratio and deviation angle stay within the stable operational region.
